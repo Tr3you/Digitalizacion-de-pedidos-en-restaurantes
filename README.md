@@ -6,16 +6,16 @@ Entonces, buscando apoyar dicho proceso desarrollaremos una aplicación web que 
 ___
 ### Equipo
 
-- Erick J. Ruiz Acosta | T00054462
-Desarrollador Backend.
+- Erick J. Ruiz Acosta | T00054462  
+_Desarrollador Backend._  
 Responsabilidad: implementar interacción entre la base de datos y el fronted.
 
-- Héctor F. Diaz Hernández | T00054643
-Desarrollador Fronted.
+- Héctor F. Diaz Hernández | T00054643  
+_Desarrollador Fronted._  
 Responsabilidad: diseño y desarrollo de la interfaz de usuario.
 
-- Isaac D. Castellar Usta | T00055440
-Diseñador de Base de Datos.
+- Isaac D. Castellar Usta | T00055440  
+_Diseñador de Base de Datos._  
 Responsabilidad: diseño e implementación de la base de datos.
 ___
 ### Requerimientos
@@ -45,43 +45,47 @@ ___
 ![Diagrama BPN de alto nivel](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/PS%20BPN%20Alto%20nivel.png)
 ___
 ### Diagramas de casos de uso
-![Diagrama de casos de uso](https://tecnoutb-my.sharepoint.com/personal/acostae_utb_edu_co/Documents/PS%20Casos%20de%20uso.png)
+![Diagrama de casos de uso](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/PS%20Casos%20de%20uso.png)
 ___
 ### Descripción de un caso de uso de prioridad alta.
-Código: CCP-00001
-Nombre: IU
-Actores: Cliente
-Descripción: cuando el cliente ingrese a la página tendrá la opción de consumir en restaurante o hacer pedido a domicilio. 
-Precondición: entrar a la página. 
-Postcondición: selección de acción a realizar. 
+Código: CCP-00001  
+Nombre: IU  
+Actores: Cliente  
+Descripción: cuando el cliente ingrese a la página tendrá la opción de consumir en restaurante o hacer pedido a domicilio.  
+Precondición: entrar a la página.  
+Postcondición: selección de acción a realizar.  
 
-Código: CCP-00010
-Nombre: Restaurante 
-Actores: Trabajadores 
-Descripción: Los trabajadores como Mesero, Repartidor y recepcionista podrán planificar y organizar el listado de todo tipo sea en el restaurante y la ubicación de la mesa o por domicilio y dirección a donde llegara el pedido
-Precondición: Entrar a  la página como trabajadores y su cargo 
-Postcondición: gestión de pedidos 
+Código: CCP-00010  
+Nombre: Restaurante  
+Actores: Trabajadores  
+Descripción: Los trabajadores como Mesero, Repartidor y recepcionista podrán planificar y organizar el listado de todo tipo sea en el restaurante y la ubicación de la mesa o por domicilio y dirección a donde llegara el pedido  
+Precondición: Entrar a  la página como trabajadores y su cargo  
+Postcondición: gestión de pedidos   
 
-Código: CCP-000100
-Nombre: Platos
-Actores: Chef y clientes 
-Descripción: los clientes podrán escoger los platos deseados con las condiciones que ellos deseen al confirmar esto el personal de la cocina conocerá los deseos del comensal e iniciaran a preparar dicho pedido.
-Precondición: confirmar pedido. 
+Código: CCP-000100  
+Nombre: Platos  
+Actores: Chef y clientes  
+Descripción: los clientes podrán escoger los platos deseados con las condiciones que ellos deseen al confirmar esto el personal de la cocina conocerá los deseos del comensal e iniciaran a preparar dicho pedido.  
+Precondición: confirmar pedido.  
 Postcondición: entrega de orden
 
-Código: CPP-010000.
-Nombre: Envió
-Actores: Repartidor 
-Descripción: el apartado par domicilios esta condiciona a que los clientes escojan la opción “hacer pedido a domicilio” una ves esto podrán escoger sus platillos y confirmar el pedido el repartidor enviara dos mensajes uno al momento de salir del restaurante y otro al llegar a la dirección dando a si un tiempo estimado de entrega.
-Precondición: Pedido a domicilio
+Código: CPP-010000.  
+Nombre: Envió  
+Actores: Repartidor  
+Descripción: el apartado par domicilios esta condiciona a que los clientes escojan la opción “hacer pedido a domicilio” una ves esto podrán escoger sus platillos y confirmar el pedido el repartidor enviara dos mensajes uno al momento de salir del restaurante y otro al llegar a la dirección dando a si un tiempo estimado de entrega.  
+Precondición: Pedido a domicilio  
 Postcondición: pedido entregado 
 
-Código: CCP-100000.
-Nombre: Pago
-Actores: clientes 
-Descripción: al terminar con el consumo de sus alimentos el cliente podrá proceder con el pago de lo consumido en el restaurante o si este pidió un domisilio pagara al momento de este llegar a su residencia con el método de pago más conveniente para dicho cliente.
-Precondición: haber hecho algún pedido.
+Código: CCP-100000.  
+Nombre: Pago  
+Actores: clientes  
+Descripción: al terminar con el consumo de sus alimentos el cliente podrá proceder con el pago de lo consumido en el restaurante o si este pidió un domisilio pagara al momento de este llegar a su residencia con el método de pago más conveniente para dicho cliente.  
+Precondición: haber hecho algún pedido.  
 Postcondición: pago total de lo consumido. 
 ___
-### Diagrama de componentes y clases
+### Diagrama de componentes
+![Diagrama de componentes](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/Diagrama%20de%20clases%20(Entrega%20preliminar%20software).jpeg)
+___
+### Diagrama de clases
 
+![Diagrama de casos de uso](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/Diagrama%20de%20clases%20(Entrega%20preliminar%20software).jpeg)
