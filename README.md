@@ -42,7 +42,7 @@ ___
 - Método de pago (Cliente).
 ___
 ### Diagrama BPN de alto nivel
-![Diagrama BPN de alto nivel](https://tecnoutb-my.sharepoint.com/personal/acostae_utb_edu_co/Documents/PS%20BPN%20Alto%20nivel.png)
+![Diagrama BPN de alto nivel](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/PS%20BPN%20Alto%20nivel.png)
 ___
 ### Diagramas de casos de uso
 ![Diagrama de casos de uso](https://tecnoutb-my.sharepoint.com/personal/acostae_utb_edu_co/Documents/PS%20Casos%20de%20uso.png)
