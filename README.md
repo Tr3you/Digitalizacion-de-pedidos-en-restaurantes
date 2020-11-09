@@ -84,8 +84,12 @@ Precondición: haber hecho algún pedido.
 Postcondición: pago total de lo consumido. 
 ___
 ### Diagrama de componentes
-![Diagrama de componentes](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/Diagrama%20de%20clases%20(Entrega%20preliminar%20software).jpeg)
+![Diagrama de componentes](https://github.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/blob/main/Diagrama%20de%20componentes.jpg)
 ___
 ### Diagrama de clases
 
 ![Diagrama de casos de uso](https://raw.githubusercontent.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/main/Diagrama%20de%20clases%20(Entrega%20preliminar%20software).jpeg)
+
+### Diagrama de secuencia
+
+![Diagrama de casos de uso](https://github.com/Tr3you/Digitalizacion-de-pedidos-en-restaurantes/blob/main/Diagrama%20de%20secuencia.png)
